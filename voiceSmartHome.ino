@@ -9,9 +9,9 @@
 #define I2S_SCK  26   // BCLK
 
 // ====== WiFi + UDP ======
-const char* ssid     = "TECNO POVA 5";
-const char* password = "00000000";
-const char* udpIp    = "10.142.180.175"; // ใส่ IP เครื่อง Python
+const char* ssid     = "";
+const char* password = "";
+const char* udpIp    = ""; // IP เครื่อง Python
 const int   udpPort  = 12345;
 
 // ====== (Optional) simple web server for LED control ======
