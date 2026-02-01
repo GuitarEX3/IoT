@@ -35,11 +35,11 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final rooms = [
-      {"name": "ห้องนั่งเล่น", "ip": "192.168.1.54"},
-      {"name": "ห้องครัว", "ip": "192.168.1.53"},
-      {"name": "ห้องนอน (พี่ชาย)", "ip": "192.168.1.102"},
-      {"name": "ห้องนอน (น้องสาว)", "ip": "192.168.1.51"},
-      {"name": "ห้องปู่ย่า", "ip": "192.168.1.52"},
+      {"name": "ห้องนั่งเล่น", "ip": ""},
+      {"name": "ห้องครัว", "ip": ""},
+      {"name": "ห้องนอน (พี่ชาย)", "ip": ""},
+      {"name": "ห้องนอน (น้องสาว)", "ip": ""},
+      {"name": "ห้องปู่ย่า", "ip": ""},
     ];
 
     return Scaffold(
@@ -571,3 +571,4 @@ class _RoomControlPageState extends State<RoomControlPage>
     );
   }
 }
+
