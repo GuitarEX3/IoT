@@ -8,9 +8,9 @@
 #define I2S_SCK  4
 
 // ====== WiFi + UDP ======
-const char* ssid     = "TP-Link_70D4";
-const char* password = "42746546";
-const char* udpIp    = "192.168.1.106"; // IP เครื่อง Python
+const char* ssid     = "";
+const char* password = "";
+const char* udpIp    = ""; // IP เครื่อง Python
 const int   udpPort  = 12345;
 
 // ====== ปุ่ม ======
